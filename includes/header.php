@@ -33,7 +33,6 @@
             const navbar = document.querySelector('.navbar-scroll');
             if (window.scrollY > 50) {
                 navbar.classList.add('scrolled');
-                navbar.style.backgroundColor = 'blue';
             } else {
                 navbar.classList.remove('scrolled');
             }
