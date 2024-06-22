@@ -1,0 +1,24 @@
+/* Additional CSS for modernized look */
+.container {
+    max-width: 1200px; /* Adjust as per your design */
+    margin: auto;
+    padding: 0 20px;
+}
+
+.grid {
+    margin-top: 2rem;
+}
+
+#search {
+    width: 100%;
+    max-width: 400px;
+}
+
+.grid > div {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.grid > div:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
